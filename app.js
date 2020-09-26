@@ -14,9 +14,17 @@
 
 //Node
 
-// (function (exports, require, module, _filename, _dirname) {
+// (function (exports, require, module, __filename, __dirname) {
 //     // Module code actually lives in here
 // });
 
-const sayName = require('./sayName');
-sayName();
+// const sayName = require('./sayName');
+// sayName();
+// console.log(sayName);
+
+// const getUserInfo = require('./sayName');
+// getUserInfo.sayAddress();
+
+console.log(__dirname);
+console.log(__filename);
+console.log(`Filename ${__filename}`);

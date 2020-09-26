@@ -1,5 +1,9 @@
 const sayName = () => {
     console.log('Hello there Ed');
 };
-module.exports = sayName;
-
+const sayAddress = () => {
+    console.log('Jhonson Street');
+};
+// module.exports = sayName;
+module.exports.sayName = sayName;
+module.exports.sayAddress = sayAddress;
