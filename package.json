@@ -1,0 +1,22 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "this is just a small crash course on node",
+  "main": "app.js",
+  "scripts": {
+    "develop": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dromide/nodeJS.git"
+  },
+  "author": "hongjun",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dromide/nodeJS/issues"
+  },
+  "homepage": "https://github.com/dromide/nodeJS#readme",
+  "dependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
